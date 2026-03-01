@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/kerala/5n-6d",
-      "destination": "https://5nights-6-days.vercel.app"
+      "destination": "https://5nights-6-days.vercel.app/"
     },
     {
       "source": "/kerala/5n-6d/(.*)",
@@ -10,7 +10,7 @@
     },
     {
       "source": "/kerala/4n-5d",
-      "destination": "https://4nights-5-days.vercel.app"
+      "destination": "https://4nights-5-days.vercel.app/"
     },
     {
       "source": "/kerala/4n-5d/(.*)",
