@@ -1,20 +1,24 @@
 {
-  "rewrites": [
+  "redirects": [
+    {
+      "source": "/kerala/4n-5d",
+      "destination": "/kerala/4n-5d/",
+      "permanent": true
+    },
     {
       "source": "/kerala/5n-6d",
-      "destination": "https://5nights-6-days.vercel.app/"
+      "destination": "/kerala/5n-6d/",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/kerala/4n-5d/(.*)",
+      "destination": "https://4nights-5-days.vercel.app/$1"
     },
     {
       "source": "/kerala/5n-6d/(.*)",
       "destination": "https://5nights-6-days.vercel.app/$1"
-    },
-    {
-      "source": "/kerala/4n-5d",
-      "destination": "https://4nights-5-days.vercel.app/"
-    },
-    {
-      "source": "/kerala/4n-5d/(.*)",
-      "destination": "https://4nights-5-days.vercel.app/$1"
     }
   ]
 }
