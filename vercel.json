@@ -9,6 +9,11 @@
       "source": "/kerala/5n-6d",
       "destination": "/kerala/5n-6d/",
       "permanent": true
+    },
+    {
+      "source": "/kerala/6n-7d",
+      "destination": "/kerala/6n-7d/",
+      "permanent": true
     }
   ],
   "rewrites": [
@@ -19,6 +24,10 @@
     {
       "source": "/kerala/5n-6d/(.*)",
       "destination": "https://5nights-6-days.vercel.app/$1"
+    },
+    {
+      "source": "/kerala/6n-7d/(.*)",
+      "destination": "https://6nights-7-days.vercel.app/$1"
     }
   ]
 }
